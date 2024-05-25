@@ -1,0 +1,501 @@
+:root {
+    --accent-color-white: #FFFFFF;
+    --accent-color-gold: #B47B48;
+    --accent-color-brightgold: #EBAD51;
+    --accent-color-orange: #C85312;
+    --accent-color-dark: #202023;
+    --accent-color-gray: #D9D9D9;
+    --accent-color-black: #272727;
+    --accent-color-gray2: #F2F2F2;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.header {
+  font-family: "Inter", sans-serif;
+  background-image: url(/image/photo_2022-06-05_13-14-26-1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-navigation {
+  font-weight: 200;
+  font-size: 24px;
+  line-height: auto;
+  color: var(--accent-color-white);
+  display: flex;
+  margin-left: 10px;
+}
+
+.header-text {
+  margin-right: 40px;
+  text-decoration: none;
+  color: var(--accent-color-white);
+  margin-top: 50px;
+}
+
+.traditional-title {
+  font-weight: 200;
+  font-size: 70px;
+  line-height: auto;
+  color: var(--accent-color-white);
+  display: flex;
+  margin-right: 724px;
+  margin-top: 71px;
+}
+
+.traditional-text {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: auto;
+  color: var(--accent-color-white);
+  display: flex;
+  margin-right: 700.25px;
+  margin-left: 14px;
+  margin-bottom: 33px;
+}
+
+.button-traditional {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: auto;
+  text-transform: uppercase;
+  color: var(--accent-color-white);
+  padding: 16px 34px 16px 34px;
+  border-radius: 17px;
+  border: 0px;
+  background-color: var(--accent-color-gold);
+}
+
+.traditional-fotocard-cost {
+  font-weight: 200;
+  font-size: 24px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.traditional-name-of-product {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.traditional-name-of-product-crushed {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.traditional-fotocard-button-buy {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: auto;
+  text-transform: uppercase;
+  color: var(--accent-color-white);
+  background-color: var(--accent-color-orange);
+  padding: 10px 22px 5px 22px;
+  border: 0;
+}
+
+.menu-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+  font-size: 64px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.menu-fotocard-name {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 25.92px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.menu-fotocard-div {
+  border: 1px solid #FFFFFF;
+  width: 328px;
+  height: 229px;
+}
+
+.menu-fotocard-button-order {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 25.92px;
+  line-height: auto;
+  color: var(--accent-color-white);
+  background-color: var(--accent-color-gold);
+  border-radius: 17px;
+  padding: 7px 43px 7px 43px;
+  margin-top: 9px;
+  margin-bottom: 7px;
+}
+
+.title-quality {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.quality-ingredient {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.why-traditional-title {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: auto;
+  color: var(--accent-color-gray);
+}
+
+.why-traditional-fotocard-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.where-title {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.how {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.when {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.number {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.time {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.tiktok {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.instagram {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.footer-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.footer-title-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.footer-about-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.footer-about-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.footer-movement-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.footer-movement-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.footer-company-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.footer-company-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.footer-copy-paste-rule {
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: auto;
+  color: var(--accent-color-white);
+}
+
+.menu-section {
+  background-color: var(--accent-color-dark);
+}
+
+.quality-section {
+  background-color: var(--accent-color-dark);
+  background-image: url(/image/repeat-quality.svg);
+  background-position: bottom;
+  background-repeat: repeat-x;
+}
+
+.why-traditional-section {
+  background-image: url(/image/photo_2022-06-23_21-45-36\ 1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.where-section {
+  background-color: var(--accent-color-dark);
+}
+
+.footer {
+  background-color: var(--accent-color-dark);
+}
+
+.fotocard-traditional {
+  background-color: var(--accent-color-black);
+  display: flex;
+  width: 310px;
+  height: 225px;
+  margin-left: 104px;
+}
+
+.fotocard-traditional-gold {
+  background-color: var(--accent-color-black);
+  display: flex;
+  width: 310px;
+  height: 225px;
+  margin-left: 134px;
+}
+
+.fotocard-traditional-gold img {
+  height: 193px;
+  padding-top: 28px;
+}
+
+.header-carts {
+  display: flex;
+}
+
+.menu-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+  margin-top: 21px;
+}
+
+.menu-fotocard {
+  width: 328px;
+  height: 259px;
+  box-sizing: border-box;
+  margin-right: 100px;
+  margin-left: 140px;
+  text-align: center;
+}
+
+.menu-fotocard-name {
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+}
+
+.title-quality {
+  display: flex;
+  justify-content: center;
+}
+
+.quality-fotocard {
+  display: flex;
+  flex-direction: column;
+}
+
+.quality-fotocard:nth-child(1) {
+  align-self: flex-start;
+}
+
+.quality-fotocard:nth-child(2) {
+  align-self: center;
+}
+
+.quality-fotocard:nth-child(3) {
+  align-self: flex-end;
+}
+
+.quality-ingredient {
+  background-color: #757575;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-copy-paste-rule {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-company-section {
+  margin-right: 219px;
+}
+
+.footer-title {
+  display: flex;
+  width: 322.34px;
+}
+
+.where-div-sect {
+  display: flex;
+  justify-content: space-between;
+}
+
+.when {
+  margin-right: 251px;
+  margin-top: 18px;
+}
+
+.how {
+  margin-right: 86px;
+  margin-top: 13px;
+}
+
+.number {
+  margin-top: 49px;
+}
+
+.tiktok {
+  margin-top: 65px;
+}
+
+.time {
+  margin-top: 40px;
+  display: flex;
+  width: 199.83px;
+}
+
+.why-trad-div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 132px;
+}
+
+.why-traditional-title {
+  width: 735px;
+}
+
+.why-traditional-fotocard-text {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-section-2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.menu-fotocard-name {
+  margin-top: 0px;
+}
+
+.quality-section-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.quality-section-div {
+  height: 700px;
+}
+
+.menu-fotocard-img {
+  width: 100%;
+  object-fit: contain;
+  height: 80%;
+}
+
+.header-title {
+  margin-bottom: 125px;
+  margin-top: 71px;
+}
+
+.fotocard-traditional:hover {
+  background-color: var(--accent-color-brightgold);
+}
+
+.fotocard-traditional-gold:hover {
+  background-color: var(--accent-color-brightgold);
+}
